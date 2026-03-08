@@ -1,0 +1,3 @@
+biopython
+# Uncomment if you are use a word doc file. Recommended and default is a text file
+# python-docx
