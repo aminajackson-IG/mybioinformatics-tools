@@ -48,4 +48,4 @@ def fetch_ncbi_records(input_file, db="nucleotide"):
 # if you to use a protein database you can pass in value for the protein db='protein' here.
 # Use full/absolute path alternatively put your accession file inside the folder where you're
 # running the script
-fetch_ncbi_records("/Users/aminakabite/Desktop/giat-test-data/accessions.txt")
+fetch_ncbi_records("accessions.txt")

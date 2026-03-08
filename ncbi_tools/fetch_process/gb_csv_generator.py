@@ -32,4 +32,7 @@ def genbank_to_csv(gb_file, output_csv):
     print(f"Extraction complete. Data saved to {output_csv}")
 
 
+# if you are not running in the same directory as the file, provide a full path.
+# You  can rename records.csv to anything of your choosing
+
 genbank_to_csv(gb_file="records.gb", output_csv="records.csv")
